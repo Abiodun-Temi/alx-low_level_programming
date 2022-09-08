@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
- * main - This is my function main.
+ * main - This is my function/method main.
  *
- * Description: Print out a message to the user.
+ * Description: Print out a message to the user at the moment.
  *
- * Return: 0 everytime. So it is successful.
+ * Return: (0) success
  */
 int main(void)
 {
