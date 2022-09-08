@@ -1,8 +1,9 @@
 #include <stdio.h>
 /**
-*
-*
-*Return: Always 0(Success)
+* main - The entry point of this program.
+* Description: Prints the sizes of the numerous primitive data types for
+* the underlying CPU architecture.
+* Return: Always returns 0. So, always successful.
 */
 int main(void)
 {
