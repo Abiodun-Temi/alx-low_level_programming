@@ -3,7 +3,7 @@
 #include <stdio.h>
 int main(void)
 {
-  int n, xlast_digit;
+  int n, last_digit;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
