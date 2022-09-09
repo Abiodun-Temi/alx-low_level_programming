@@ -1,19 +1,24 @@
-#include <stdlib.h>
+include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
 
-/* betty style doc for function main goes there */
+/**
+* main - The entry point for this function.
+* Description: This is a function that tests and tells whether a random number
+* generated is positive, negative, or zero.
+* Return: 0 all the time.
+*/
 int main(void)
 {
 	int n;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	if (n > 0)
-	  printf("%i is positive", n);
-	else if (n < 0)
-	  printf("%i is negative", n);
+	if (n < 0)
+		printf("%d is negative\n", n);
+	else if (n > 0)
+		printf("%d is positive\n", n);
 	else
-	  printf("%i is zero \n", n);
+		printf("%d is 0\n", n);
 	return (0);
 }
