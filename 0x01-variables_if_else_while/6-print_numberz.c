@@ -1,16 +1,23 @@
-#include <stdio.h>
+#include<stdio.h>
+
 /**
- * main - main function
+ * main - Entry point
  *
- * Return: end of the program
- */
+ * Description: print all base 10 digit characters in ASCII format
+ *
+ * Return: Always 0 (Success)
+*/
+
 int main(void)
 {
-	int n;
+	int digit = 0;
 
-	for (n = 0; n <= 9; ++n)
-		putchar("%d", n);
+	while (digit <= 9)
+	{
+		/*add to the character code for 0 to convert to ASCII representation*/
+		putchar(digit++ + '0');
+	}
+	putchar('\n');
 
-	putchar("\n");
 	return (0);
 }
