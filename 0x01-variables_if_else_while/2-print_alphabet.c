@@ -1,16 +1,14 @@
 #include <stdio.h>
 /**
-*
-*
-*Return: End the program
-*/
+ * main - main function
+ *
+ * Return: End the program
+ */
 int main(void)
 {
 	char alphabet;
 
-	for (alphabet = 'a'; alphabet <= 'z', ++alphabet)
-	printf("%c\n", alphabet);
+	for (alphabet = 'a'; alphabet <= 'z'; ++alphabet)
+	  printf("%c", alphabet);
 	return (0);
 }
-
-	
