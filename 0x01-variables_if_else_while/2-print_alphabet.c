@@ -6,9 +6,9 @@
  */
 int main(void)
 {
-	char alphabet;
+	char letter;
 
-	for (alphabet = 'a'; alphabet <= 'z'; ++alphabet)
-	  printf("%c", alphabet);
+	for (letter = 'a'; letter <= 'z'; ++letter)
+	printf("%c", letter);
 	return (0);
 }
