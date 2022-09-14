@@ -5,7 +5,7 @@
  *@c: checks input of method
  * Return: returns 1 if 'c' is in lowercase else returns 0 if false
 */
-int _islower(int c);
+int _islower(int c)
 {
 	return (c >= 'a' && c <= 'z');
 }
