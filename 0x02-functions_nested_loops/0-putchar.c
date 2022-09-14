@@ -9,15 +9,13 @@
 */
 int main(void)
 {
-	_putchar("_");
-	_putchar("p");
-	_putchar("u");
-	_putchar("t");
-	_putchar("c");
-	_putchar("h");
-	_putchar("a");
-	_putchar("r");
-	_putchar("\n");
+	char str[] = "_putchar\0";
+	int t;
+
+	for (t = 0; t < 8; ++t)
+		_putchar(str[t]);
+
+	_putchar('\n');
 
 	return (0);
 }
