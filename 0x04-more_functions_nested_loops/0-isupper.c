@@ -4,7 +4,6 @@
  *@c: variable to use for the if condition
  *Return: 1 if is in upper case and 0 other wise
 */
-
 int _isupper(int c)
 {
 
@@ -13,6 +12,5 @@ int _isupper(int c)
 
 	else
 		return (0);
-
 
 }
