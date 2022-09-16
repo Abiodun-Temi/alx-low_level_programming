@@ -5,9 +5,9 @@
  */
 void more_numbers(void)
 {
-	int i, num;
+	int t, num;
 
-	for (i = 0; i < 10; i++)
+	for (t = 0; t < 10; t++)
 	{
 		for (num = 0; num < 15; num++)
 		{
@@ -17,3 +17,4 @@ void more_numbers(void)
 		}
 		_putchar('\n');
 	}
+}
