@@ -1,0 +1,15 @@
+#include "main.h"
+/**
+ * print_numbers - where number test will be carried out
+ * Return: No return
+ */
+void print_numbers(void)
+{
+
+	int i;
+
+	for (i = 0; i < 10; i++)
+		_putchar(char);
+	_putchar("\n");
+
+}
