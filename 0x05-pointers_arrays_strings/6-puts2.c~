@@ -1,0 +1,23 @@
+#include "main.h"
+
+/**
+ * puts2 - prints all characters in a string with an even index
+ *
+ * @str: the character sequence to consider
+ *
+ * Return: Does not return a value.
+*/
+
+void puts2(char *str)
+{
+	int t;
+
+	for (t = 0; str[t] != '\0'; ++t)
+	{
+		if (t % 2 == 0)
+		{
+			_putchar(str[t]);
+		}
+	}
+	_putchar('\n');
+}
