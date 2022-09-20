@@ -10,7 +10,7 @@ void print_rev(char *s)
 
 	while (revcount >= 0)
 	{
-		if (s[count] == '\0')
+		if (s[revcount] == '\0')
 			break;
 		revcount++;
 	}
