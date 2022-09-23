@@ -1,0 +1,12 @@
+#include "main.h"
+/**
+ * _strcat - the main function for the string
+ * @dest: the string to be appended to
+ * @src: the second char variable
+ * Return: return pointer
+ */
+char *_strcat(char *dest, char *src)
+{
+
+
+}
