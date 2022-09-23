@@ -1,0 +1,25 @@
+#include "main.h"
+/**
+ * cap_string - function to captialize strings
+ * @t: string type
+ * Return: return string
+ */
+char *cap_string(char *t)
+{
+	char spc[] = {32, 9, '\n', ',', ';', '.', '!', '?', '"', '(', ')', '{', '}'};
+	int lent = 13;
+	int a = 0, i;
+
+	while (t[a])
+	{
+		i = 0;
+		while (i < lent)
+		{
+		 if (a == 0 || s[a - 1] == spc[i])&&(s[a] >= 97 && s[a] <= 122))
+			s[a] = s[a] - 32;
+			i++;
+		}
+	a++;
+	}
+return (t);
+}
