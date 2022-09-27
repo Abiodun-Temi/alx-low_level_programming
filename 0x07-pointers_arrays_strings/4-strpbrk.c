@@ -9,12 +9,12 @@ char *_strpbrk(char *s, char *accept)
 {
 	unsigned int t, e;
 
-	for (t = 0; s[t] != '\0'; t++)
+	for (t = 0; *(s + t) != '\0'; t++)
 	{
-		for (e = 0; accept[e] != '\0'; e++)
+		for (e = 0; *(accept + e) != '\0'; e++)
 		{
-			if (s[t] == accept[e])
-				return (s);
+			if (*(s + t) == *(accept + e))
+				return (s + t);
 		}
 	}
 	return ('\0');
