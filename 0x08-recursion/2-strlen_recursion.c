@@ -2,6 +2,7 @@
 /**
  * _strlen_recursion - recursion function to get the length of a string
  * @s: sring variable
+ * Return: return length of string
  */
 int _strlen_recursion(char *s)
 {
