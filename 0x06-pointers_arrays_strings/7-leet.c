@@ -8,23 +8,23 @@
 
 char *leet(char *s)
 {
-	int i;
-	int c = 0;
+	int t;
+	int e = 0;
 	int sl[] = {97, 101, 111, 116, 108};
 	int ul[] = {65, 69, 79, 84, 76};
 	int n[] = {52, 51, 48, 55, 49};
 
-	while (s[c] != '\0')
+	while (s[e] != '\0')
 	{
-		for (i = 0; i < 5; i++)
+		for (t = 0; t < 5; t++)
 		{
-			if (s[c] == sl[i] || s[c] == ul[i])
+			if (s[e] == sl[t] || s[e] == ul[t])
 			{
-				s[c] = n[i];
+				s[e] = n[t];
 				break;
 			}
 		}
-		c++;
+		e++;
 	}
 	return (s);
 }
