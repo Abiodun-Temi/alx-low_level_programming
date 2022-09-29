@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* rot13 - Rotates each character in a string by 13.
+* rot13 - Rotates each character in a string by 13 according to rot13 code
 *
 * @s: The string to encode in ROT-13
 *
