@@ -1,0 +1,1 @@
+c program by alx on variadic functions
