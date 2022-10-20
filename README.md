@@ -1,1 +1,1 @@
-this is a repository for porjects on C programming language
+##  0x12-singly_linked_lists
