@@ -1,1 +1,1 @@
-this is a repository for porjects on C programming language
+##  0x14-bit_manipulation
